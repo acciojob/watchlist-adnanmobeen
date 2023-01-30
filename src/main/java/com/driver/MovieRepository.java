@@ -86,5 +86,7 @@ public class MovieRepository {
                 movieMap.remove(movie);
             }
         }
+        directorMovieMapping.clear();
+        directorMap.clear();
     }
 }
